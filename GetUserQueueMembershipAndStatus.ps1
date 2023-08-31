@@ -28,5 +28,5 @@ if($membershipArray.Count -eq 0)
 }
 else
 {
-    $membershipArray
+    Write-Host ($membershipArray | Format-Table | Out-String)
 }
